@@ -1,0 +1,15 @@
+html{
+    background-color:rgb(191, 214, 255);
+}
+body{
+    display: flex;
+    text-align: center;
+}
+.page{
+    background-color: rgb(255, 253, 243);
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 10px rgb(255, 252, 252);
+    max-width: 700px;
+    height: 300px;
+}

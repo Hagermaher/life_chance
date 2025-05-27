@@ -1,0 +1,63 @@
+html{
+    background-color:rgb(191, 214, 255);
+}
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: cornsilk;
+    gap: 20px;
+    background-color:#86A8CF;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.text{
+    display: flex;
+    
+}
+.text button{
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color:#86A8CF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+}
+footer {
+    background: #86A8CF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .services p {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+}
+button{
+   background-color :rgb(130, 113, 239);
+   margin-top: 20px;
+   width: 100px;
+   height: 30px;
+   border: none;
+   color: cornsilk;
+}
+button:hover{
+    background-color: rgb(198, 1, 198);
+    cursor: pointer;
+}
+#button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
