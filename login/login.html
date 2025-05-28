@@ -5,6 +5,12 @@
     <title>LOG_IN</title>
     <link rel="stylesheet" href="login.css">
 </head>
+<script>
+    function submitForm() {
+        event.preventDefault();
+        window.location.href = "/home.html";
+    }
+</script>
 <body>
     <div class="parent">
         <div class="child">
@@ -17,12 +23,12 @@
             <input type="password" name="pass" id="" placeholder="password">
             <br>
             <input type="checkbox" name="" id=""> 
-            <label for="REMEMBER ME"></label>
+            <label for="REMEMBER ME"> REMEMBER ME</label>
             <br>
-            <input type="submit" value="SUBMIT">
+            <input type="submit" value="SUBMIT" onclick="submitForm()">
             <br>
             <br>
-            <a href="#logut page">DO YOU WANT TO LOGOUT ?</a>
+            <a href="/logout/logout.html">DO YOU WANT TO LOGOUT ?</a>
         </div>
     </div>
     

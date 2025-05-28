@@ -1,5 +1,7 @@
  html{
       font-size: x-large;
+    background-color:rgb(191, 214, 255);
+
     }
     .contact-form {
        background-color: #86A8CF;
@@ -42,7 +44,7 @@
          background-color: #0056b3;
         }
     body {
-       background: linear-gradient(to left, powderblue,PINK);
+       
        margin: 0;
        }
        footer {
@@ -57,9 +59,7 @@ footer .services p {
     margin: 0 10px;
     padding: 5px;
 }
-html{
-    background-color:rgb(191, 214, 255);
-}
+
 h1{
     text-align: center;
 }
