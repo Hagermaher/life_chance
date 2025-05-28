@@ -1,10 +1,12 @@
 html{
     background-color:rgb(191, 214, 255);
+    font-size: larger;
 }
 h1{
     text-align: center;
 }
 nav{
+    position: sticky;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -17,10 +19,15 @@ a{
     text-decoration: none;
     color: cornsilk;
 }
+input{
+    width: 300px;
+    border-radius: 3px;
+}
 .text{
     display: flex;
     
 }
+input
 .text button{
     margin: 10px 5px;
     padding: 10px 20px;
@@ -60,4 +67,8 @@ button:hover{
     text-align: center;
     justify-content: center;
     gap: 30px;
+}
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

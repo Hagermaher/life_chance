@@ -5,6 +5,7 @@ h1{
     text-align: center;
 }
 nav{
+    position: sticky;
     display: flex;
     text-align: center;
     justify-content: center;
