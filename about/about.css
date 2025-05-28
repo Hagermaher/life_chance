@@ -57,3 +57,23 @@ footer .services p {
     margin: 0 10px;
     padding: 5px;
 }
+html{
+    background-color:rgb(191, 214, 255);
+}
+h1{
+    text-align: center;
+}
+nav{
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: cornsilk;
+    gap: 20px;
+    background-color:#86A8CF;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
