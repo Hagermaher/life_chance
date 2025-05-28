@@ -1,0 +1,59 @@
+ html{
+      font-size: x-large;
+    }
+    .contact-form {
+       background-color: #86A8CF;
+       padding: 20px;
+         width: 100%; 
+         max-width: 400px;
+        }
+     .contact-form h1 {
+       margin-bottom: 20px;
+       font-size: 24px;
+        color: #333333;
+       } 
+     .form-group {
+       margin-bottom: 15px;
+       margin-right: 10px;
+      } 
+     .form-group input, .form-group textarea {
+       width: 100%;
+       padding: 10px;
+        border: 1px solid #cccccc;
+         border-radius: 4px;
+          font-size: 16px;
+           background-color: rgb(249, 240, 227);
+          }
+      .form-group textarea {
+         resize: vertical;
+         height: 100px;
+         } 
+      button {
+        width: 100%;
+         padding: 10px;
+          background-color: #afc7e1;
+           border: none; 
+           border-radius: 4px;
+            color: #ffffff; 
+            font-size: 16px;
+             cursor: pointer;
+             } 
+      button:hover {
+         background-color: #0056b3;
+        }
+    body {
+       background: linear-gradient(to left, powderblue,PINK);
+       margin: 0;
+       }
+       footer {
+    background: #86A8CF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .services p {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+}
