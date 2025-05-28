@@ -65,6 +65,8 @@ h1{
 }
 nav{
     position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     text-align: center;
     justify-content: center;
